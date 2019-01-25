@@ -69,7 +69,7 @@ file | STRING | YES | File
 ## File info
 
 ```rest
-POST /v1/file/344178f3-d89d-4336-aed7-9108dd2f8362/info
+GET /v1/file/344178f3-d89d-4336-aed7-9108dd2f8362/info
 ```
 File information
 
