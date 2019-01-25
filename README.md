@@ -48,7 +48,7 @@ Upload file to server
 
 Name | Type | Mandatory | Description
 ------------ | ------------ | ------------ | ------------
-file | STRING | YES | File
+file | FILE | YES | 
 
 **Response:**
 ```javascript
