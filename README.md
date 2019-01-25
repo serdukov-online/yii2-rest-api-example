@@ -37,7 +37,13 @@ auth[password] | STRING | YES | Password
 }
 ```
 
-## File upload
+## Files
+
+```rest
+Authorization: Bearer <jwt-token>
+```
+
+### File upload
 
 ```rest
 POST /v1/file/upload
@@ -66,7 +72,7 @@ file | FILE | YES |
 }
 ```
 
-## File info
+### File info
 
 ```rest
 GET /v1/file/344178f3-d89d-4336-aed7-9108dd2f8362/info
